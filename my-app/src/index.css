@@ -5,9 +5,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(253, 246, 238);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;  
+  color: #5a5550;
+  margin-left: 2vw;
+  margin-top: 4vh;
+}
+
+h2 {
+  color: rgb(182, 162, 143);
+  text-align: center;
+  margin-top: 5vh;
+
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+h3 {
+  color: #5a5550;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'PT Mono', monospace;
+  padding-bottom: 100px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 80px;
+}
+
+p {
+  color: rgb(182, 162, 143);
+  font-size: 30px;
+  margin-right: 10vw;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(149, 116, 98);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+/*  background-color: #d26666;*/
+  color: white;
 }
