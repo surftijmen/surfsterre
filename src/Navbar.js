@@ -1,19 +1,22 @@
 export default function Navbar() {
-    const path = window.location.pathname
     return (
     <nav className="nav">
-        <a href="/" className="site-title">Surfsterre</a>
+        <a href="/" className="site-title"> Home</a>
         <ul>
-            <CumstomLink>about</CumstomLink>
-            {/* <CumstomLink>surf</CumstomLink> */}
+            <CumstomLink href="about">about</CumstomLink>
+            <CumstomLink href="surf">surf</CumstomLink>
+            <CumstomLink href="skate">skate</CumstomLink>
+            <CumstomLink href="socialMedia">social media</CumstomLink>
         </ul>
     </nav>
     )
 }
 
 function CumstomLink({href, children, ...props}) {
+    const path = window.location.pathname
+
     return (
-        <li>
+        <li className={path === href ? "active" : ""}>
             <a href={href} {...props}>{children}</a>
         </li>
     )

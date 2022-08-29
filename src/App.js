@@ -1,25 +1,35 @@
-import './App.css';
 import Home from './pages/home';
 import About from "./pages/about";
 import Surf from "./pages/surf";
+import Skate from "./pages/skate";
+import SocialMedia from "./pages/socialMedia";
 import Navbar from './Navbar';
+import Footer from './Footer';
+
 
 function App() {
-  let Component;
+  let component;
   switch (window.location.pathname) {
     case "/":
-      Component = <Home/>
+      component = <Home/>
       break
     case "/about":
-      Component = <About/>
+      component = <About/>
       break
     case "/surf":
-      Component = <Surf/>
+      component = <Surf/>
+      break
+    case "/skate":
+      component = <Skate/>
+      break
+    case "/socialMedia":
+      component = <SocialMedia/>
       break
   }
   return (<>
     <Navbar/>
-    <div className="container"> {Component}</div>
+    <div className="container"> {component}</div>
+    <Footer/>
   </>
   )
 }
