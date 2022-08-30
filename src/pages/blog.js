@@ -1,7 +1,6 @@
-import './../socialMedia.css';
 import insta from './../resourses/instaTemp.png';
 
-export default function SocialMedia() {
+export default function Blog() {
     return (
         <>
             <img src={insta}/>

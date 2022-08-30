@@ -2,9 +2,9 @@ import Home from './pages/home';
 import About from "./pages/about";
 import Surf from "./pages/surf";
 import Skate from "./pages/skate";
-import SocialMedia from "./pages/socialMedia";
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Blog from "./pages/blog";
+import Navbar from './pages/navbar';
+import Footer from './pages/footer';
 
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
     case "/skate":
       component = <Skate/>
       break
-    case "/socialMedia":
-      component = <SocialMedia/>
+    case "/blog":
+      component = <Blog/>
       break
   }
   return (<>

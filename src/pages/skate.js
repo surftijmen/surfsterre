@@ -1,3 +1,9 @@
+import flower from './../resourses/boarder.jpg';
+
 export default function Skate() {
-    return <h1>skate</h1>
+    return (
+    <>
+        <img src={flower}/>
+
+    </>)
 }

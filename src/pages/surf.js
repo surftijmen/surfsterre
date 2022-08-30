@@ -1,3 +1,9 @@
+import flower from './../resourses/boardflower.jpg';
+
 export default function Surf() {
-    return <h1>Surf</h1>
+    return (
+    <>
+        <img src={flower}/>
+
+    </>)
 }

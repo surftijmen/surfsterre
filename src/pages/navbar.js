@@ -6,7 +6,7 @@ export default function Navbar() {
             <CumstomLink href="about">about</CumstomLink>
             <CumstomLink href="surf">surf</CumstomLink>
             <CumstomLink href="skate">skate</CumstomLink>
-            <CumstomLink href="socialMedia">social media</CumstomLink>
+            <CumstomLink href="blog">blog</CumstomLink>
         </ul>
     </nav>
     )
