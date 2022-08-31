@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/surfsterre.com/static/css/main.0b888342.css",
-    "main.js": "/surfsterre.com/static/js/main.cc8fb533.js",
-    "static/media/surflook.jpg": "/surfsterre.com/static/media/surflook.ad0a8baa30cc1ad6a4dd.jpg",
-    "static/media/ster.jpg": "/surfsterre.com/static/media/ster.4f8688412c6c5c16d7ee.jpg",
-    "static/media/ELEGANT TYPEWRITER Regular.ttf": "/surfsterre.com/static/media/ELEGANT TYPEWRITER Regular.e19a066e546a10da5e06.ttf",
-    "static/media/boarder.jpg": "/surfsterre.com/static/media/boarder.bb450c54f4f16a1e2f7e.jpg",
-    "static/media/beachPose.jpg": "/surfsterre.com/static/media/beachPose.3d4134119c27037a643d.jpg",
-    "static/media/beachsun.jpg": "/surfsterre.com/static/media/beachsun.a57431303d4737447436.jpg",
-    "static/media/art2.jpg": "/surfsterre.com/static/media/art2.92e1f9eddf7d2edb5ac1.jpg",
-    "static/media/verticalBoard.jpg": "/surfsterre.com/static/media/verticalBoard.3cd04e9d03efd8f8abe7.jpg",
-    "static/media/back.jpg": "/surfsterre.com/static/media/back.ef8285286fcac8333f8b.jpg",
-    "static/media/Love.ttf": "/surfsterre.com/static/media/Love.e57add118aa2ca1032fd.ttf",
-    "static/media/banner.jpg": "/surfsterre.com/static/media/banner.d8925d72fe7539b2d3c0.jpg",
-    "static/media/LemonJuice.otf": "/surfsterre.com/static/media/LemonJuice.7d528a4fb4e1867f53b2.otf",
-    "static/media/sterre.jpg": "/surfsterre.com/static/media/sterre.2057e561266081a70071.jpg",
-    "index.html": "/surfsterre.com/index.html",
-    "main.0b888342.css.map": "/surfsterre.com/static/css/main.0b888342.css.map",
-    "main.cc8fb533.js.map": "/surfsterre.com/static/js/main.cc8fb533.js.map"
+    "main.css": "/static/css/main.5dfccc88.css",
+    "main.js": "/static/js/main.7fdc4674.js",
+    "static/media/surflook.jpg": "/static/media/surflook.ad0a8baa30cc1ad6a4dd.jpg",
+    "static/media/ster.jpg": "/static/media/ster.4f8688412c6c5c16d7ee.jpg",
+    "static/media/ELEGANT TYPEWRITER Regular.ttf": "/static/media/ELEGANT TYPEWRITER Regular.e19a066e546a10da5e06.ttf",
+    "static/media/boarder.jpg": "/static/media/boarder.bb450c54f4f16a1e2f7e.jpg",
+    "static/media/beachPose.jpg": "/static/media/beachPose.3d4134119c27037a643d.jpg",
+    "static/media/beachsun.jpg": "/static/media/beachsun.a57431303d4737447436.jpg",
+    "static/media/art2.jpg": "/static/media/art2.92e1f9eddf7d2edb5ac1.jpg",
+    "static/media/verticalBoard.jpg": "/static/media/verticalBoard.3cd04e9d03efd8f8abe7.jpg",
+    "static/media/back.jpg": "/static/media/back.ef8285286fcac8333f8b.jpg",
+    "static/media/Love.ttf": "/static/media/Love.e57add118aa2ca1032fd.ttf",
+    "static/media/banner.jpg": "/static/media/banner.d8925d72fe7539b2d3c0.jpg",
+    "static/media/LemonJuice.otf": "/static/media/LemonJuice.7d528a4fb4e1867f53b2.otf",
+    "static/media/sterre.jpg": "/static/media/sterre.2057e561266081a70071.jpg",
+    "index.html": "/index.html",
+    "main.5dfccc88.css.map": "/static/css/main.5dfccc88.css.map",
+    "main.7fdc4674.js.map": "/static/js/main.7fdc4674.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b888342.css",
-    "static/js/main.cc8fb533.js"
+    "static/css/main.5dfccc88.css",
+    "static/js/main.7fdc4674.js"
   ]
 }
