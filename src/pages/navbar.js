@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
     <nav className="nav">
-        <a href="/" className="site-title"> Home</a>
+        <a href="/" className="site-title">Home</a>
         <ul>
             <CumstomLink href="about">about</CumstomLink>
             <CumstomLink href="surf">surf</CumstomLink>

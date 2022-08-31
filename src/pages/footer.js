@@ -12,7 +12,7 @@ const Footer=()=>{
             <a href="https://www.youtube.com/channel/UCi7aogUR0jE2GcP3JBk-N2Q" target="_blank" class="icon fab fa-youtube"></a>
             <a href="mailto:surfsterre@gmail.com" class="icon fas fa-envelope"></a>
             
-            <h4>Copyright © 2022 Surfsterre Inc. - All Rights Reserved.</h4>
+            <h4 class="footerText">Copyright © 2022 Sterre Meijer. - All Rights Reserved.</h4>
         </footer></>
         
     )

@@ -1,9 +1,5 @@
-import flower from './../resourses/boardflower.jpg';
 
 export default function Surf() {
-    return (
-    <>
-        <img src={flower}/>
+    return (<h1>Comming soon!</h1>)
 
-    </>)
 }

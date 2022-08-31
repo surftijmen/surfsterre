@@ -2,6 +2,12 @@ import flower from './../resourses/surflook.jpg';
 import ster from './../resourses/ster.jpg';
 import sterre from './../resourses/sterre.jpg';
 import banner from './../resourses/banner.jpg';
+import art2 from './../resourses/art2.jpg';
+import beach from './../resourses/beachsun.jpg';
+import back from './../resourses/back.jpg';
+import vertical from './../resourses/verticalBoard.jpg';
+import beachPose from './../resourses/beachPose.jpg';
+
 export default function Home() {
     return (<>
 
@@ -18,7 +24,24 @@ export default function Home() {
         <CustomCard src={sterre} tag="tag tag-pink" title="Art" time="reading time: about 5 minutes">In this blog I will tell you everything about my art...</CustomCard>
     </div>
 
-    <p>------ Skate - Surf - Art ------</p>
+    <div class="cardContainer">
+
+    <img src={art2} class="mediumImage"></img>
+        </div>        
+        
+    <div class="diagonalParent">
+        <h1>Some photos!</h1>
+        <img class= "smallImage" src={vertical}/>
+        <img class= "smallImage" src={beach}/>
+        <img class= "smallImage" src={beachPose}/>
+        <img class= "smallImage" src={sterre}/>
+        <img class= "smallImage" src={back}/>
+    </div>
+
+
+    
+
+    <p>------------ Skate - Surf - Art -----------</p>
 
     </>)
 }
